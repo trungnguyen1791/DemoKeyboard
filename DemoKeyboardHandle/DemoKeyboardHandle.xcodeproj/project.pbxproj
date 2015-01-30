@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844702CA1A7BDD1800E5070C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702C91A7BDD1800E5070C /* main.m */; };
+		844702CD1A7BDD1800E5070C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702CC1A7BDD1800E5070C /* AppDelegate.m */; };
+		844702D01A7BDD1800E5070C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702CF1A7BDD1800E5070C /* ViewController.m */; };
+		844702D31A7BDD1800E5070C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844702D11A7BDD1800E5070C /* Main.storyboard */; };
+		844702D51A7BDD1800E5070C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844702D41A7BDD1800E5070C /* Images.xcassets */; };
+		844702D81A7BDD1800E5070C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844702D61A7BDD1800E5070C /* LaunchScreen.xib */; };
+		844702E41A7BDD1800E5070C /* DemoKeyboardHandleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702E31A7BDD1800E5070C /* DemoKeyboardHandleTests.m */; };
+		8447030E1A7BDD5E00E5070C /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702F01A7BDD5E00E5070C /* IQNSArray+Sort.m */; };
+		8447030F1A7BDD5E00E5070C /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702F21A7BDD5E00E5070C /* IQUIView+Hierarchy.m */; };
+		844703101A7BDD5E00E5070C /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702F41A7BDD5E00E5070C /* IQUIWindow+Hierarchy.m */; };
+		844703111A7BDD5E00E5070C /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702F91A7BDD5E00E5070C /* IQKeyboardManager.m */; };
+		844703121A7BDD5E00E5070C /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702FB1A7BDD5E00E5070C /* IQKeyboardReturnKeyHandler.m */; };
+		844703131A7BDD5E00E5070C /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = 844702FE1A7BDD5E00E5070C /* IQSegmentedNextPrevious.m */; };
+		844703141A7BDD5E00E5070C /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 844703011A7BDD5E00E5070C /* IQTextView.m */; };
+		844703151A7BDD5E00E5070C /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 844703041A7BDD5E00E5070C /* IQBarButtonItem.m */; };
+		844703161A7BDD5E00E5070C /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 844703061A7BDD5E00E5070C /* IQTitleBarButtonItem.m */; };
+		844703171A7BDD5E00E5070C /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 844703081A7BDD5E00E5070C /* IQToolbar.m */; };
+		844703181A7BDD5E00E5070C /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8447030A1A7BDD5E00E5070C /* IQUIView+IQKeyboardToolbar.m */; };
+		844703191A7BDD5E00E5070C /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8447030D1A7BDD5E00E5070C /* IQKeyboardManager.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844702DE1A7BDD1800E5070C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844702BC1A7BDD1800E5070C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844702C31A7BDD1800E5070C;
+			remoteInfo = DemoKeyboardHandle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844702C41A7BDD1800E5070C /* DemoKeyboardHandle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoKeyboardHandle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844702C81A7BDD1800E5070C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844702C91A7BDD1800E5070C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844702CB1A7BDD1800E5070C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		844702CC1A7BDD1800E5070C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		844702CE1A7BDD1800E5070C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		844702CF1A7BDD1800E5070C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		844702D21A7BDD1800E5070C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844702D41A7BDD1800E5070C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		844702D71A7BDD1800E5070C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		844702DD1A7BDD1800E5070C /* DemoKeyboardHandleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoKeyboardHandleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844702E21A7BDD1800E5070C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844702E31A7BDD1800E5070C /* DemoKeyboardHandleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoKeyboardHandleTests.m; sourceTree = "<group>"; };
+		844702EF1A7BDD5E00E5070C /* IQNSArray+Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		844702F01A7BDD5E00E5070C /* IQNSArray+Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		844702F11A7BDD5E00E5070C /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		844702F21A7BDD5E00E5070C /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		844702F31A7BDD5E00E5070C /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		844702F41A7BDD5E00E5070C /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		844702F61A7BDD5E00E5070C /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		844702F71A7BDD5E00E5070C /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		844702F81A7BDD5E00E5070C /* IQKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		844702F91A7BDD5E00E5070C /* IQKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		844702FA1A7BDD5E00E5070C /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		844702FB1A7BDD5E00E5070C /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		844702FD1A7BDD5E00E5070C /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		844702FE1A7BDD5E00E5070C /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		844703001A7BDD5E00E5070C /* IQTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		844703011A7BDD5E00E5070C /* IQTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		844703031A7BDD5E00E5070C /* IQBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		844703041A7BDD5E00E5070C /* IQBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		844703051A7BDD5E00E5070C /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		844703061A7BDD5E00E5070C /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		844703071A7BDD5E00E5070C /* IQToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		844703081A7BDD5E00E5070C /* IQToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		844703091A7BDD5E00E5070C /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		8447030A1A7BDD5E00E5070C /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		8447030B1A7BDD5E00E5070C /* KeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardManager.h; sourceTree = "<group>"; };
+		8447030D1A7BDD5E00E5070C /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844702C11A7BDD1800E5070C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844702DA1A7BDD1800E5070C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844702BB1A7BDD1800E5070C = {
+			isa = PBXGroup;
+			children = (
+				844702C61A7BDD1800E5070C /* DemoKeyboardHandle */,
+				844702E01A7BDD1800E5070C /* DemoKeyboardHandleTests */,
+				844702C51A7BDD1800E5070C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844702C51A7BDD1800E5070C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844702C41A7BDD1800E5070C /* DemoKeyboardHandle.app */,
+				844702DD1A7BDD1800E5070C /* DemoKeyboardHandleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844702C61A7BDD1800E5070C /* DemoKeyboardHandle */ = {
+			isa = PBXGroup;
+			children = (
+				844702ED1A7BDD5E00E5070C /* IQKeyBoardManager */,
+				844702CB1A7BDD1800E5070C /* AppDelegate.h */,
+				844702CC1A7BDD1800E5070C /* AppDelegate.m */,
+				844702CE1A7BDD1800E5070C /* ViewController.h */,
+				844702CF1A7BDD1800E5070C /* ViewController.m */,
+				844702D11A7BDD1800E5070C /* Main.storyboard */,
+				844702D41A7BDD1800E5070C /* Images.xcassets */,
+				844702D61A7BDD1800E5070C /* LaunchScreen.xib */,
+				844702C71A7BDD1800E5070C /* Supporting Files */,
+			);
+			path = DemoKeyboardHandle;
+			sourceTree = "<group>";
+		};
+		844702C71A7BDD1800E5070C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844702C81A7BDD1800E5070C /* Info.plist */,
+				844702C91A7BDD1800E5070C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844702E01A7BDD1800E5070C /* DemoKeyboardHandleTests */ = {
+			isa = PBXGroup;
+			children = (
+				844702E31A7BDD1800E5070C /* DemoKeyboardHandleTests.m */,
+				844702E11A7BDD1800E5070C /* Supporting Files */,
+			);
+			path = DemoKeyboardHandleTests;
+			sourceTree = "<group>";
+		};
+		844702E11A7BDD1800E5070C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844702E21A7BDD1800E5070C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844702ED1A7BDD5E00E5070C /* IQKeyBoardManager */ = {
+			isa = PBXGroup;
+			children = (
+				844702EE1A7BDD5E00E5070C /* Categories */,
+				844702F51A7BDD5E00E5070C /* Constants */,
+				844702F81A7BDD5E00E5070C /* IQKeyboardManager.h */,
+				844702F91A7BDD5E00E5070C /* IQKeyboardManager.m */,
+				844702FA1A7BDD5E00E5070C /* IQKeyboardReturnKeyHandler.h */,
+				844702FB1A7BDD5E00E5070C /* IQKeyboardReturnKeyHandler.m */,
+				844702FC1A7BDD5E00E5070C /* IQSegmentedNextPrevious */,
+				844702FF1A7BDD5E00E5070C /* IQTextView */,
+				844703021A7BDD5E00E5070C /* IQToolbar */,
+				8447030B1A7BDD5E00E5070C /* KeyboardManager.h */,
+				8447030C1A7BDD5E00E5070C /* Resources */,
+			);
+			path = IQKeyBoardManager;
+			sourceTree = "<group>";
+		};
+		844702EE1A7BDD5E00E5070C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				844702EF1A7BDD5E00E5070C /* IQNSArray+Sort.h */,
+				844702F01A7BDD5E00E5070C /* IQNSArray+Sort.m */,
+				844702F11A7BDD5E00E5070C /* IQUIView+Hierarchy.h */,
+				844702F21A7BDD5E00E5070C /* IQUIView+Hierarchy.m */,
+				844702F31A7BDD5E00E5070C /* IQUIWindow+Hierarchy.h */,
+				844702F41A7BDD5E00E5070C /* IQUIWindow+Hierarchy.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		844702F51A7BDD5E00E5070C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				844702F61A7BDD5E00E5070C /* IQKeyboardManagerConstants.h */,
+				844702F71A7BDD5E00E5070C /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		844702FC1A7BDD5E00E5070C /* IQSegmentedNextPrevious */ = {
+			isa = PBXGroup;
+			children = (
+				844702FD1A7BDD5E00E5070C /* IQSegmentedNextPrevious.h */,
+				844702FE1A7BDD5E00E5070C /* IQSegmentedNextPrevious.m */,
+			);
+			path = IQSegmentedNextPrevious;
+			sourceTree = "<group>";
+		};
+		844702FF1A7BDD5E00E5070C /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				844703001A7BDD5E00E5070C /* IQTextView.h */,
+				844703011A7BDD5E00E5070C /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		844703021A7BDD5E00E5070C /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				844703031A7BDD5E00E5070C /* IQBarButtonItem.h */,
+				844703041A7BDD5E00E5070C /* IQBarButtonItem.m */,
+				844703051A7BDD5E00E5070C /* IQTitleBarButtonItem.h */,
+				844703061A7BDD5E00E5070C /* IQTitleBarButtonItem.m */,
+				844703071A7BDD5E00E5070C /* IQToolbar.h */,
+				844703081A7BDD5E00E5070C /* IQToolbar.m */,
+				844703091A7BDD5E00E5070C /* IQUIView+IQKeyboardToolbar.h */,
+				8447030A1A7BDD5E00E5070C /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		8447030C1A7BDD5E00E5070C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8447030D1A7BDD5E00E5070C /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844702C31A7BDD1800E5070C /* DemoKeyboardHandle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844702E71A7BDD1800E5070C /* Build configuration list for PBXNativeTarget "DemoKeyboardHandle" */;
+			buildPhases = (
+				844702C01A7BDD1800E5070C /* Sources */,
+				844702C11A7BDD1800E5070C /* Frameworks */,
+				844702C21A7BDD1800E5070C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoKeyboardHandle;
+			productName = DemoKeyboardHandle;
+			productReference = 844702C41A7BDD1800E5070C /* DemoKeyboardHandle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844702DC1A7BDD1800E5070C /* DemoKeyboardHandleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844702EA1A7BDD1800E5070C /* Build configuration list for PBXNativeTarget "DemoKeyboardHandleTests" */;
+			buildPhases = (
+				844702D91A7BDD1800E5070C /* Sources */,
+				844702DA1A7BDD1800E5070C /* Frameworks */,
+				844702DB1A7BDD1800E5070C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844702DF1A7BDD1800E5070C /* PBXTargetDependency */,
+			);
+			name = DemoKeyboardHandleTests;
+			productName = DemoKeyboardHandleTests;
+			productReference = 844702DD1A7BDD1800E5070C /* DemoKeyboardHandleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844702BC1A7BDD1800E5070C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = EricNguyen;
+				TargetAttributes = {
+					844702C31A7BDD1800E5070C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					844702DC1A7BDD1800E5070C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 844702C31A7BDD1800E5070C;
+					};
+				};
+			};
+			buildConfigurationList = 844702BF1A7BDD1800E5070C /* Build configuration list for PBXProject "DemoKeyboardHandle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844702BB1A7BDD1800E5070C;
+			productRefGroup = 844702C51A7BDD1800E5070C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844702C31A7BDD1800E5070C /* DemoKeyboardHandle */,
+				844702DC1A7BDD1800E5070C /* DemoKeyboardHandleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844702C21A7BDD1800E5070C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844702D31A7BDD1800E5070C /* Main.storyboard in Resources */,
+				844702D81A7BDD1800E5070C /* LaunchScreen.xib in Resources */,
+				844703191A7BDD5E00E5070C /* IQKeyboardManager.bundle in Resources */,
+				844702D51A7BDD1800E5070C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844702DB1A7BDD1800E5070C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844702C01A7BDD1800E5070C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8447030E1A7BDD5E00E5070C /* IQNSArray+Sort.m in Sources */,
+				844703161A7BDD5E00E5070C /* IQTitleBarButtonItem.m in Sources */,
+				844703121A7BDD5E00E5070C /* IQKeyboardReturnKeyHandler.m in Sources */,
+				844703181A7BDD5E00E5070C /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				844703151A7BDD5E00E5070C /* IQBarButtonItem.m in Sources */,
+				844703131A7BDD5E00E5070C /* IQSegmentedNextPrevious.m in Sources */,
+				844703141A7BDD5E00E5070C /* IQTextView.m in Sources */,
+				844703111A7BDD5E00E5070C /* IQKeyboardManager.m in Sources */,
+				844702D01A7BDD1800E5070C /* ViewController.m in Sources */,
+				844702CD1A7BDD1800E5070C /* AppDelegate.m in Sources */,
+				844703171A7BDD5E00E5070C /* IQToolbar.m in Sources */,
+				844703101A7BDD5E00E5070C /* IQUIWindow+Hierarchy.m in Sources */,
+				844702CA1A7BDD1800E5070C /* main.m in Sources */,
+				8447030F1A7BDD5E00E5070C /* IQUIView+Hierarchy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844702D91A7BDD1800E5070C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844702E41A7BDD1800E5070C /* DemoKeyboardHandleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844702DF1A7BDD1800E5070C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844702C31A7BDD1800E5070C /* DemoKeyboardHandle */;
+			targetProxy = 844702DE1A7BDD1800E5070C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844702D11A7BDD1800E5070C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844702D21A7BDD1800E5070C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844702D61A7BDD1800E5070C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844702D71A7BDD1800E5070C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844702E51A7BDD1800E5070C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		844702E61A7BDD1800E5070C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844702E81A7BDD1800E5070C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoKeyboardHandle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		844702E91A7BDD1800E5070C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoKeyboardHandle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		844702EB1A7BDD1800E5070C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoKeyboardHandleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoKeyboardHandle.app/DemoKeyboardHandle";
+			};
+			name = Debug;
+		};
+		844702EC1A7BDD1800E5070C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DemoKeyboardHandleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoKeyboardHandle.app/DemoKeyboardHandle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844702BF1A7BDD1800E5070C /* Build configuration list for PBXProject "DemoKeyboardHandle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844702E51A7BDD1800E5070C /* Debug */,
+				844702E61A7BDD1800E5070C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844702E71A7BDD1800E5070C /* Build configuration list for PBXNativeTarget "DemoKeyboardHandle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844702E81A7BDD1800E5070C /* Debug */,
+				844702E91A7BDD1800E5070C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		844702EA1A7BDD1800E5070C /* Build configuration list for PBXNativeTarget "DemoKeyboardHandleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844702EB1A7BDD1800E5070C /* Debug */,
+				844702EC1A7BDD1800E5070C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844702BC1A7BDD1800E5070C /* Project object */;
+}
